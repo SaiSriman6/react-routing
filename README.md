@@ -1,16 +1,118 @@
-# React + Vite
+# Routing Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application built using Vite and React Router to practice frontend routing concepts. This project demonstrates navigation between multiple pages using client-side routing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## React Compiler
+* React
+* Vite
+* React Router
+* Tailwind CSS
+* JavaScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Client-side routing using React Router
+* Fast development setup with Vite
+* Responsive UI with Tailwind CSS
+* Multiple page navigation without page reload
+* Component-based frontend structure
+
+---
+
+## Project Structure
+
+```bash
+Routing/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── index.html
+```
+
+---
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Run the Project
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The app will run locally on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+## Learning Concepts
+
+This project was created to practice:
+
+* React component structure
+* React Router navigation
+* Routing between pages
+* Tailwind CSS styling
+* Vite project setup
+* Frontend application organization
+
+---
+
+## Dependencies
+
+Main libraries used:
+
+```json
+react
+react-dom
+react-router
+tailwindcss
+vite
+```
+
+---
+
+## Author
+
+Created as part of React routing and frontend development practice.
